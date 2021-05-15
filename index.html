@@ -6,14 +6,22 @@
     </head>
     <body>
         <header>
-            <h1>Random Motorcycle Joke Generator</h1>
+            <h1>Random Motorcycle Jokes</h1>
         </header>
         <main>
-            <img src="uc.png" alt="Under Construction" title="Under Construction">
+            <blockquote>
+                <h3 id="line1"></h3>
+                <p id="line2"></p>
+            </blockquote>
         </main>
         <footer>
-            Copyright &copy; <a href="https://www.linkedin.com/in/stuart-raynor-2363b571/" target="_blank">Stuart Raynor</a>
+            Copyright &copy; 2021 <a href="https://www.linkedin.com/in/stuart-raynor-2363b571/" target="_blank">Stuart Raynor</a>
         </footer>
         <script src="jokes.js"></script>
+        <script>
+            const joke = getJoke();
+            document.getElementById("line1").innerHTML = joke.line1;
+            document.getElementById("line2").innerHTML = joke.line2;
+        </script>
     </body>
 </html>

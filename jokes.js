@@ -41,4 +41,7 @@ const jokes = [
     }
 ];
 
-console.log(jokes.length);
+const getJoke = () => {
+    const num = Math.floor(Math.random()*jokes.length);
+    return jokes[num];
+}
