@@ -117,3 +117,9 @@ const getJoke = () => {
     const num = Math.floor(Math.random()*jokes.length);
     return jokes[num];
 }
+
+const displayJoke = () => {
+    const joke = getJoke();
+    document.getElementById("line1").innerHTML = joke.line1;
+    document.getElementById("line2").innerHTML = joke.line2;
+}
