@@ -49,7 +49,7 @@ Project is still under construction
 Room for improvement:
 
 * Better CSS Styling
-* Add option to get new joke
+* ~~Add option to get new joke~~
 
 To do:
 
