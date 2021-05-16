@@ -16,10 +16,9 @@
 
 ## General Information
 
-* This a joke generator to highlight some javascript skills I've learned.
-* It solves the problem of needing to find a new joke every day.
-* It's purpose is to make people laugh.
-* The reason for creating this project is to demonstrate some learnt skills.
+* This a joke generator to highlight some skills I've learned.
+* Proof of skills include HTML5, CSS, JS, Git version control and working with GitHub.
+* It's secondary purpose is to make people laugh.
 
 ## Technologies Used
 
