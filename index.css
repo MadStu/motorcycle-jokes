@@ -40,6 +40,34 @@ a {
     border-style: dashed;
 }
 
+.click {
+    margin: auto;
+    background-color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: dotted;
+    max-width: 40%;
+    color: black;
+}
+
+.click a {
+    color: black;
+}
+
+.clicked {
+    margin: auto;
+    background-color: red;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: dotted;
+    max-width: 40%;
+    color: white;
+}
+
+.clicked a {
+    color: white;
+}
+
 #explain {
     text-align: right;
     font-size: 70%;

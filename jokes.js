@@ -123,3 +123,11 @@ const displayJoke = () => {
     document.getElementById("line1").innerHTML = joke.line1;
     document.getElementById("line2").innerHTML = joke.line2;
 }
+
+const changeBg = () => {
+    document.querySelector('.click').classList.add('click');
+}
+
+const changeBack = () => {
+    document.querySelector('.click').classList.add('clicked');
+}
