@@ -26,17 +26,6 @@ const displayJoke = () => {
     document.getElementById("line6").innerHTML = joke3.line2;
 }
 
-// Changing colour of the "Next jokes" button
-/*
-const changeBg = () => {
-    //document.querySelector('.click').classList.add('click');
-}
-
-const changeBack = () => {
-    //document.querySelector('.click').classList.add('clicked');
-}
-*/
-
 // Joke Database
 const jokes = [
     {
