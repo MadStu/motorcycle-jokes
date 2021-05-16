@@ -46,16 +46,16 @@ Project is: _in progress_
 
 Project is still under construction
 
-<!-- Room for improvement:
+Room for improvement:
 
-* Improvement to be done 1
-* Improvement to be done 2 -->
+* Better CSS Styling
+* Add option to get new joke
 
 To do:
 
-* Write the JavaScript
-* Write the HTML
-* Style with CSS
+* ~~Write the JavaScript~~
+* ~~Write the HTML~~
+* ~~Style with CSS~~
 
 ## Acknowledgements
 
