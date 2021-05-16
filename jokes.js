@@ -1,3 +1,43 @@
+// Grab a random joke
+const getJoke = () => {
+    const num = Math.floor(Math.random()*jokes.length);
+    return jokes[num];
+}
+
+// Display the joke in the HTML
+const displayJoke = () => {
+    // Get and display 1st joke
+    const joke1 = getJoke();
+    document.getElementById("line1").innerHTML = joke1.line1;
+    document.getElementById("line2").innerHTML = joke1.line2;
+    // Get 2nd joke, check it doesn't match 1st then display
+    let joke2 = getJoke();
+    while (joke2 === joke1){
+        joke2 = getJoke();
+    }
+    document.getElementById("line3").innerHTML = joke2.line1;
+    document.getElementById("line4").innerHTML = joke2.line2;
+    // Get 3rd joke, check it doesn't match 1st or 2nd then display
+    let joke3 = getJoke();
+    while (joke3 === joke2 || joke3 === joke1){
+        joke3 = getJoke();
+    }
+    document.getElementById("line5").innerHTML = joke3.line1;
+    document.getElementById("line6").innerHTML = joke3.line2;
+}
+
+// Changing colour of the "Next jokes" button
+/*
+const changeBg = () => {
+    //document.querySelector('.click').classList.add('click');
+}
+
+const changeBack = () => {
+    //document.querySelector('.click').classList.add('clicked');
+}
+*/
+
+// Joke Database
 const jokes = [
     {
         line1: 'I just got a wooden motorcycle. It has a wooden frame, wooden handle bars, wooden wheels, and a wooden seat. Guess what?',
@@ -111,23 +151,4 @@ const jokes = [
         line1: 'What\'s a medical doctor called, who is also part of a motorcycle club?',
         line2: 'A Healths Angel.'
     }
-];
-
-const getJoke = () => {
-    const num = Math.floor(Math.random()*jokes.length);
-    return jokes[num];
-}
-
-const displayJoke = () => {
-    const joke = getJoke();
-    document.getElementById("line1").innerHTML = joke.line1;
-    document.getElementById("line2").innerHTML = joke.line2;
-}
-
-const changeBg = () => {
-    document.querySelector('.click').classList.add('click');
-}
-
-const changeBack = () => {
-    document.querySelector('.click').classList.add('clicked');
-}
+]
