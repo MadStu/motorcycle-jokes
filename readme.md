@@ -39,11 +39,9 @@ The page will display a randomly generated motorcycle-related joke for your plea
 
 ## Project Status
 
-Project is: _in progress_
+Project is: _COMPLETE_
 
 ## Room for Improvement
-
-Project is still under construction
 
 Room for improvement:
 
